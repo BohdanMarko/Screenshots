@@ -42,7 +42,7 @@ app.Use(async (context, next) =>
 
 app.UseHttpsRedirection();
 
-app.MapGet("/", () => "Screenshots API");
+app.MapGet("/", () => Results.Content(File.ReadAllText(@".\assets\index.html"), "text/html"));
 
 app.MapPost("/screenshot", async (IScreenshotsService screenshotsService, [FromBody]TakeScreenshotRequest request) =>
 {

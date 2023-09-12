@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Screenshots API</title>
+</head>
+<body>
+    <h2>Screenshots API</h2>
+    <p>Use the POST "/screenshot" endpoint with the following request body to capture a screenshot of the browser page:</p>
+    <pre id="json"></pre>
+    <script>
+        var data = {
+            "targetUrl": "https://www.google.com/"
+        };
+        document.getElementById("json").textContent = JSON.stringify(data, null, 2);
+    </script>
+</body>
+</html>
