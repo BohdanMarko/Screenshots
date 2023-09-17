@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4CB90F21-B46
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Screenshots", "src\Screenshots\Screenshots.csproj", "{6D21083B-9382-44C3-B53B-37F90A1C6E63}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8535BE3-61B3-4B7A-91DD-DDCCC2EE2287}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

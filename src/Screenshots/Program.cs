@@ -42,11 +42,7 @@ app.Use(async (context, next) =>
 
 app.UseHttpsRedirection();
 
-app.MapGet("/", () =>
-{
-    var rootFolder = Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory);
-    return Results.Content(File.ReadAllText(@$"{rootFolder}\assets\index.html"), "text/html");
-});
+app.MapGet("/", () => Results.Content(File.ReadAllText(@$"./assets/index.html"), "text/html"));
 
 app.MapPost("/screenshot", async (IScreenshotsService screenshotsService, [FromBody]TakeScreenshotRequest request) =>
 {
