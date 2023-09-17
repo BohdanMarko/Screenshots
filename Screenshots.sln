@@ -4,10 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4CB90F21-B464-4A14-BB24-1711B9004D85}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Screenshots", "src\Screenshots\Screenshots.csproj", "{6D21083B-9382-44C3-B53B-37F90A1C6E63}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8535BE3-61B3-4B7A-91DD-DDCCC2EE2287}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F7E201D-21AE-43ED-A069-A27520F7C4AB}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
 		README.md = README.md
